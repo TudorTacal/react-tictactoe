@@ -1,4 +1,4 @@
-import React, {Componenet}, from 'react';
+import React, {Componenet} from 'react';
 
 class Square extends React.Component {
   render () {
@@ -9,3 +9,5 @@ class Square extends React.Component {
     );
   }
 }
+
+export default Square

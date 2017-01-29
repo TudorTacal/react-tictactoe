@@ -1,8 +1,9 @@
-import React, {Componenet}, from 'react';
+import React, {Componenet} from 'react';
+import Square from './square'
 
 class Board extends React.Component {
   renderSquare(i) {
-    return </Square />;
+    return <Square/>;
   }
   render() {
     const status = 'Next player: X';
@@ -28,3 +29,4 @@ class Board extends React.Component {
     );
   }
 }
+export default Board

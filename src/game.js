@@ -1,4 +1,6 @@
-import React, {Componenet}, from 'react';
+import React, {Componenet} from 'react';
+import Board from './board'
+import Square from './square'
 
 class Game extends React.Component {
   render() {
@@ -15,3 +17,5 @@ class Game extends React.Component {
     );
   }
 }
+
+export default Game
